@@ -22,7 +22,7 @@ const fetchData: any = async () => {
 }
 
 const generateImg = (text: string) => {
-    return `https://vnuqwzaoqxrmtfpumnhy.supabase.co/storage/v1/object/public/data/${text}.png`;
+    return `https://vnuqwzaoqxrmtfpumnhy.supabase.co/storage/v1/object/public/data/${text}`;
 }
 
 onMounted(() => {
